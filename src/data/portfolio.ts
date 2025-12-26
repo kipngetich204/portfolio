@@ -70,13 +70,13 @@ export const portfolioData: PortfolioData = {
       {
         title: 'Portfolio Website',
         description:
-          'A personal portfolio built with Next.js and Tailwind CSS.',
-        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+          'A personal portfolio built with React and Tailwind CSS.',
+        technologies: ['React', 'TypeScript', 'Tailwind CSS'],
         category: 'web',
         gradient: 'bg-gradient-to-br from-indigo-500 to-purple-600',
         links: {
           github: 'https://github.com/kipngetich204/portfolio',
-          demo: 'https://kipngetich.dev'
+          demo: "https://kipngetichportfolio.web.app"
         }
       },
       {
