@@ -55,43 +55,54 @@ export const portfolioData: PortfolioData = {
       },
       {
         name: 'Backend',
-        items: ['Node.js', 'Express', 'REST APIs']
+        items: ['Node.js', 'MYSQL', 'REST APIs', 'Python']
       },
       {
         name: 'Tools',
-        items: ['Git', 'Vite', 'Figma']
+        items: ['Git', 'Vite', 'Figma', 'Firebase']
       }
     ]
   },
 
-  projects: {
-    title: 'Projects',
-    items: [
-      {
-        title: 'Portfolio Website',
-        description:
-          'A personal portfolio built with React and Tailwind CSS.',
-        technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-        category: 'web',
-        gradient: 'bg-gradient-to-br from-indigo-500 to-purple-600',
-        links: {
-          github: 'https://github.com/kipngetich204/portfolio',
-          demo: "https://kipngetichportfolio.web.app"
+    projects: {
+      title: 'Projects',
+      items: [
+        {
+          title: 'Portfolio Website',
+          description:
+            'A personal portfolio built with React and Tailwind CSS.',
+          technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+          category: 'web',
+          gradient: 'bg-gradient-to-br from-indigo-500 to-purple-600',
+          links: {
+            github: 'https://github.com/kipngetich204/portfolio',
+            demo: 'https://kipngetichportfolio.web.app'
+          }
+        },
+        {
+          title: 'Task Manager App',
+          description:
+            'A simple task management app with authentication and CRUD features.',
+          technologies: ['React', 'Node.js', 'Express'],
+          category: 'web',
+          gradient: 'bg-gradient-to-br from-green-500 to-teal-600',
+          links: {
+            github: 'https://github.com/username/task-manager'
+          }
+        },
+        {
+          title: 'LiveTips – Football Predictions',
+          description:
+            'A football predictions platform providing match insights and tips powered by a Python-based backend.',
+          technologies: ['React', 'TypeScript', 'Python', 'AI'],
+          category: 'web',
+          gradient: 'bg-gradient-to-br from-orange-500 to-red-600',
+          links: {
+            demo: 'https://footballpredict-26f20.web.app/'
+          }
         }
-      },
-      {
-        title: 'Task Manager App',
-        description:
-          'A simple task management app with authentication and CRUD features.',
-        technologies: ['React', 'Node.js', 'Express'],
-        category: 'web',
-        gradient: 'bg-gradient-to-br from-green-500 to-teal-600',
-        links: {
-          github: 'https://github.com/username/task-manager'
-        }
-      }
-    ]
-  },
+      ]
+    },
 
   contact: {
     title: 'Get In Touch',
